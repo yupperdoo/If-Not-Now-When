@@ -111,294 +111,294 @@ RecReading = true;
 const newSong1 = new Song(
     "Top of the World",
     "The Carpenters",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/AArQuID.png",
+    "https://imgur.com/AArQuID.png",
     "https://audio.jukehost.co.uk/019ef622-ee98-71eb-89c6-1f99e665b13e"
 );
 
 const newSong2 = new Song(
     "This Land is Your Land (Avett Brothers)",
     "Woody Guthrie",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/HOqjZJy.png",
+    "https://imgur.com/HOqjZJy.png",
     "https://audio.jukehost.co.uk/019f24b4-b0ef-70f5-b873-d8ed3fed0da0"
 );
 
 const newSong3 = new Song(
     "California Dreamin'",
     "The Mamas and the Papas",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/llCLObj.png",
+    "https://imgur.com/llCLObj.png",
     "https://audio.jukehost.co.uk/GD3yLiiWhRqmDERTwf5z9z24XwhfCCrh"
 );
 
 const newSong4 = new Song(
     "The Times They Are a-Changin'",
     "Bob Dylan",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/2tvcCBZ.png",
+    "https://imgur.com/2tvcCBZ.png",
     "https://audio.jukehost.co.uk/xayNpewEvpw3feAlP7TqpspG2ziiOK7V"
 );
 
 const newSong5 = new Song(
-    "Make Your Own Kind of Music",
-    "Mama Cass Elliot",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/EEnHAno.png",
-    "https://audio.jukehost.co.uk/Ltxm2KJUFP9gOX9UsQpkysnkYGzyPlyn"
+    "Brown-eyed Girl",
+    "Van Morrison",
+    "https://imgur.com/uPMub3V.png",
+    "https://audio.jukehost.co.uk/019f293f-de53-70cc-8042-9cdf9ef42e3f"
 );
 
 const newSong6 = new Song(
     "Build Me Up, Buttercup",
     "The Foundations",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/GY9bQwr.png",
+    "https://imgur.com/GY9bQwr.png",
     "https://audio.jukehost.co.uk/v4A3IpE2R9BMvRTMgEaKPu2GgGqUuLxy"
 );
 
 const newSong7 = new Song(
     "Sweet Caroline",
     "Neil Diamond",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/F2QGxWu.png",
+    "https://imgur.com/F2QGxWu.png",
     "https://audio.jukehost.co.uk/GudEp7jGnDcO80RF22F5k06DhYFolNGK"
 );
 
 const newSong8 = new Song(
     "Heart of Gold",
     "Neil Young",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/jHMmdEF.png",
+    "https://imgur.com/jHMmdEF.png",
     "https://audio.jukehost.co.uk/E7UXWGWhu8QxDwwjAtyHcUh4zuj7g5mJ"
 );
 
 const newSong9 = new Song(
-    "Take it Easy",
-    "Jackson Browne",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/efatz0N.png",
-    "https://audio.jukehost.co.uk/2XivhNazkJ7Pq3BGpMm7u6q4GAu4Ydw8"
+    "Make Your Own Kind of Music",
+    "Mama Cass Elliot",
+    "https://imgur.com/EEnHAno.png",
+    "https://audio.jukehost.co.uk/Ltxm2KJUFP9gOX9UsQpkysnkYGzyPlyn"
 );
 
 const newSong10 = new Song(
-    "Running on Empty",
+    "Take it Easy",
     "Jackson Browne",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/LRuXUZC.png",
-    "https://audio.jukehost.co.uk/019f2949-ddf2-737a-bf94-33e184ff1f84"
+    "https://imgur.com/efatz0N.png",
+    "https://audio.jukehost.co.uk/2XivhNazkJ7Pq3BGpMm7u6q4GAu4Ydw8"
 );
 
 const newSong11 = new Song(
-    "Brown-eyed Girl",
-    "Van Morrison",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/uPMub3V.png",
-    "https://audio.jukehost.co.uk/019f293f-de53-70cc-8042-9cdf9ef42e3f"
+    "Running on Empty",
+    "Jackson Browne",
+    "https://imgur.com/LRuXUZC.png",
+    "https://audio.jukehost.co.uk/019f2949-ddf2-737a-bf94-33e184ff1f84"
 );
 
 const newSong12 = new Song(
     "Listen to the Music",
     "Doobie Brothers",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/w9RquD5.png",
+    "https://imgur.com/w9RquD5.png",
     "https://audio.jukehost.co.uk/019f293f-e170-7333-bbcc-87450bc31f26"
 );
 
 const newSong13 = new Song(
     "Have You Ever Seen the Rain",
     "Creedence Clearwater Revival",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/XE2Ah6d.png",
+    "https://imgur.com/XE2Ah6d.png",
     "https://audio.jukehost.co.uk/PpPJvpGYgtvppeSF0rEoVnX7VT3MXbMA"
 );
 
 const newSong14 = new Song(
     "Down on the Corner",
     "Creedence Clearwater Revival",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/9tzeVGh.png",
+    "https://imgur.com/9tzeVGh.png",
     "https://audio.jukehost.co.uk/G2YG9T9zoAVfEvCEPTiT19aS9qqEUFjU"
 );
 
 const newSong15 = new Song(
     "Bad Moon Rising",
     "Creedence Clearwater Revival",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/rM9ejsO.png",
+    "https://imgur.com/rM9ejsO.png",
     "https://audio.jukehost.co.uk/vFtG3DyYWyHownkWgAGQEBdDwdAIuwRm"
 );
 
 const newSong16 = new Song(
     "Lookin' Out My Back Door",
     "Creedence Clearwater Revival",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/MqCv4bw.png",
+    "https://imgur.com/MqCv4bw.png",
     "https://audio.jukehost.co.uk/LemofY7g3P02WXajDvjhWl5b52djMR5S"
 );
 
 const newSong17 = new Song(
     "Landslide",
     "Fleetwood Mac",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/gip5Zqa.png",
+    "https://imgur.com/gip5Zqa.png",
     "https://audio.jukehost.co.uk/019f293f-decf-70cb-b580-a2401b728462"
 );
 
 const newSong18 = new Song(
     "Go Your Own Way",
     "Fleetwood Mac",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/0qLbR5n.png",
+    "https://imgur.com/0qLbR5n.png",
     "https://audio.jukehost.co.uk/019f29cb-81dc-72c3-808d-e3779fc24efa"
 );
 
 const newSong19 = new Song(
     "Danny's Song",
     "Loggins & Messina",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/adCK0Hb.png",
+    "https://imgur.com/adCK0Hb.png",
     "https://audio.jukehost.co.uk/019f293f-e248-70ba-8aeb-16e13dcdffcb"
 );
 
 const newSong20 = new Song(
     "Sweet Baby James",
     "James Taylor",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/mvLfBmC.png",
+    "https://imgur.com/mvLfBmC.png",
     "https://audio.jukehost.co.uk/019f293f-de0e-71bb-90be-fabf8deada09"
 );
 
 const newSong21 = new Song(
     "Carolina in My Mind",
     "James Taylor",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/QPu0y6E.png",
+    "https://imgur.com/QPu0y6E.png",
     "https://audio.jukehost.co.uk/019f24ae-7732-7013-b3b2-7bdd7191ff4e"
 );
 
 const newSong22 = new Song(
     "Fire and Rain",
     "James Taylor",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/1Aunm5H.png",
+    "https://imgur.com/1Aunm5H.png",
     "https://audio.jukehost.co.uk/wmhfuomqqWVB9eJ85gpXse7bUdLaOyFV"
 );
 
 const newSong23 = new Song(
     "Take Me Home, Country Roads",
     "John Denver",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/wclikXS.png",
+    "https://imgur.com/wclikXS.png",
     "https://audio.jukehost.co.uk/ZEWFZdmnlj1Eo6NaW6rEIXu7AjlXw1Kf"
 );
 
 const newSong24 = new Song(
     "Rocky Mountain High",
     "John Denver",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/PnlgeGg.png",
+    "https://imgur.com/PnlgeGg.png",
     "https://audio.jukehost.co.uk/vQbG3MDOX76FdY81cZ2AqeyqAn6zIBe6"
 );
 
 const newSong25 = new Song(
     "Leavin' on a Jet Plane",
     "John Denver",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/kkA8Xac.png",
+    "https://imgur.com/kkA8Xac.png",
     "https://audio.jukehost.co.uk/019f293f-e098-7224-bee2-a1bf74834a42"
 );
 
 const newSong26 = new Song(
     "Sunshine on my Shoulders",
     "John Denver",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/cTpAdOa.png",
+    "https://imgur.com/cTpAdOa.png",
     "https://audio.jukehost.co.uk/019f2963-0385-709c-8414-eb6fc17e5388"
 );
 
 const newSong27 = new Song(
     "Annie's Song",
     "John Denver",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/LXBcHd1.png",
+    "https://imgur.com/LXBcHd1.png",
     "https://audio.jukehost.co.uk/019f2965-2965-721c-b13b-4ec5620f8274"
 );
 
 const newSong28 = new Song(
     "Cat's in the Cradle",
     "Harry Chapin",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Aw8kBfT.png",
+    "https://imgur.com/Aw8kBfT.png",
     "https://audio.jukehost.co.uk/019f293f-e06a-7028-890e-7ea001491166"
 );
 
 const newSong29 = new Song(
     "Moonshadow",
     "Cat Stevens",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/G7mRDmn.png",
+    "https://imgur.com/G7mRDmn.png",
     "https://audio.jukehost.co.uk/019f2947-2de7-7013-80cc-1d450a05a6f1"
 );
 
 const newSong30 = new Song(
     "Morning Has Broken",
     "Cat Stevens",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/uV05mVS.png",
+    "https://imgur.com/uV05mVS.png",
     "https://audio.jukehost.co.uk/019f293f-dfd2-70be-9571-3c7a509a66e7"
 );
 
 const newSong31 = new Song(
     "Wild World",
     "Cat Stevens",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/PYdA5Rg.png",
+    "https://imgur.com/PYdA5Rg.png",
     "https://audio.jukehost.co.uk/019f2957-ea0b-70fe-a9df-1615c4ac7438"
 );
 
 const newSong32 = new Song(
     "The Sound of Silence",
     "Simon & Garfunkel",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/24atk7T.png",
+    "https://imgur.com/24atk7T.png",
     "https://audio.jukehost.co.uk/RjZGLfxSJKi0UjNAFOGwqP7K3s4A76y1"
 );
 
 const newSong33 = new Song(
     "Mrs. Robinson",
     "Simon & Garfunkel",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/MQC66UQ.png",
+    "https://imgur.com/MQC66UQ.png",
     "https://audio.jukehost.co.uk/mGL2gue8Ti6KgQPtkmwhNrtQw0LtgWM8"
 );
 
 const newSong34 = new Song(
     "Bridge over Troubled Water",
     "Simon & Garfunkel",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/hnbcXu7.png",
+    "https://imgur.com/hnbcXu7.png",
     "https://audio.jukehost.co.uk/019f293f-e302-7291-bfe3-184e1f388c51"
 );
 
 const newSong35 = new Song(
     "Homeward Bound",
     "Simon & Garfunkel",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/1EWWPWs.png",
+    "https://imgur.com/1EWWPWs.png",
     "https://audio.jukehost.co.uk/019f34fb-af88-73e1-b3f0-15616bcfddb0"
 );
 
 const newSong36 = new Song(
     "The Gambler",
     "Kenny Rogers",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/JKKrPS3.png",
+    "https://imgur.com/JKKrPS3.png",
     "https://audio.jukehost.co.uk/019f297c-15cf-706f-b4c4-480a6dbca2f9"
 );
 
 const newSong37 = new Song(
     "Wreck of the Edmund Fitzgerald",
     "Gordon Lightfoot",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/poAUkGP.png",
+    "https://imgur.com/poAUkGP.png",
     "https://audio.jukehost.co.uk/019f297c-18aa-71e7-8ba9-8066986d603f"
 );
 
 const newSong38 = new Song(
     "Piano Man",
     "Billy Joel",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/PMVmPLV.png",
+    "https://imgur.com/PMVmPLV.png",
     "https://audio.jukehost.co.uk/019f29b3-ba3d-70e6-b342-64fadd7b15ea"
 );
 
 const newSong39 = new Song(
     "A Horse with no Name",
     "America",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/rLAfp2g.png",
+    "https://imgur.com/rLAfp2g.png",
     "https://audio.jukehost.co.uk/019f297c-161e-71de-94bc-bc63fb966203"
 );
 
 const newSong40 = new Song(
     "Sister Golden Hair",
     "America",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/ps1B7sP.png",
+    "https://imgur.com/ps1B7sP.png",
     "https://audio.jukehost.co.uk/019f297c-1472-733a-bcea-7aaae058c0cc"
 );
 
 const newSong41 = new Song(
     "Starry Starry Night",
     "Don McLean",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/onQOoC2.png",
+    "https://imgur.com/onQOoC2.png",
     "https://audio.jukehost.co.uk/fvszj5jYKPpHsC09s65XXp3N46LqoyYJ"
 );
 
 const newSong42 = new Song(
     "American Pie",
     "Don McLean",
-    "https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/2fAduYL.png",
+    "https://imgur.com/2fAduYL.png",
     "https://audio.jukehost.co.uk/jr0W3gfT2cj4sSnWfgHhRaMvSviVG81x"
 );
 
