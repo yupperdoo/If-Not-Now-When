@@ -491,7 +491,7 @@ const newSong42 = new Song(
             audio.src = playlist.getCurrentSong().getAudioLink();
             audio.currentTime = 0;
             audio.play();
-            tapeRecorder.style.backgroundImage = "url('https://imgpile.com/p/ZMLBaGc')";
+            tapeRecorder.style.backgroundImage = "url('https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/I7jF0Ak.gif')";
             toggleButton.textContent = "Stop";
         });
     
@@ -504,7 +504,7 @@ const newSong42 = new Song(
             audio.src = playlist.getCurrentSong().getAudioLink();
             audio.currentTime = 0;
             audio.play();
-            tapeRecorder.style.backgroundImage = "url('https://imgpile.com/p/ZMLBaGc')";
+            tapeRecorder.style.backgroundImage = "url('https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/I7jF0Ak.gif')";
             toggleButton.textContent = "Stop";
         });
     
@@ -521,12 +521,12 @@ const newSong42 = new Song(
     
         const toggleButton = document.createElement("button");
         toggleButton.id = "toggle-button";
-        tapeRecorder.style.backgroundImage = "url('https://imgpile.com/p/ZMLBaGc')";
+        tapeRecorder.style.backgroundImage = "url('https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/I7jF0Ak.gif')";
         toggleButton.textContent = "Stop";
         toggleButton.addEventListener("click", () => {
             if (audio.paused) {
                 audio.play();
-                tapeRecorder.style.backgroundImage = "url('https://imgpile.com/p/ZMLBaGc')";
+                tapeRecorder.style.backgroundImage = "url('https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/I7jF0Ak.gif')";
                 toggleButton.textContent = "Stop";
             } else {
                 audio.pause();
@@ -564,7 +564,7 @@ const newSong42 = new Song(
             audio.src = playlist.getCurrentSong().getAudioLink();
             audio.currentTime = 0;
             audio.play();
-            tapeRecorder.style.backgroundImage = "url('https://imgpile.com/p/ZMLBaGc')";
+            tapeRecorder.style.backgroundImage = "url('https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/I7jF0Ak.gif')";
             toggleButton.textContent = "Stop";
         });
     
@@ -577,7 +577,7 @@ const newSong42 = new Song(
         });
     
         audio.play().then(() => {
-            tapeRecorder.style.backgroundImage = "url('https://imgpile.com/p/ZMLBaGc')";
+            tapeRecorder.style.backgroundImage = "url('https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/I7jF0Ak.gif')";
             toggleButton.textContent = "Stop";
         }).catch(() => {
             console.log("Autoplay blocked. Waiting for user interaction...");
@@ -874,7 +874,7 @@ button#election_id_button {
   left: 2.5%;
   width: 55%;
   height: 62.5%;
-  background-image: url("https://imgpile.com/p/urXYFJO");
+  background-image: url("https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/nwi7ylA.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
