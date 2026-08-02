@@ -21728,7 +21728,7 @@ if (ans === 22501 || ans === 22701) {
     campaignTrail_temp.candidate_json[3]["fields"].first_name = "Benjamin";
     campaignTrail_temp.candidate_json[3]["fields"].last_name = "Spock/Hospers/Others";
 
-    if (campaignTrail_temp.temp_variables.partyunity >= 5) {
+    if (window.campaignVars.partyUnity >= 5) {
         campaignTrail_temp.questions_json[
             campaignTrail_temp.question_number + 1
         ] = tunnel(13427);
@@ -22896,7 +22896,7 @@ if (
 if (
     (ans === 23505 || ans === 23506 || ans === 23507)
 ) {
-    if (campaignTrail_temp.temp_variables.partyunity >= 15) {
+    if (window.campaignVars.partyUnity >= 15) {
         campaignTrail_temp.questions_json[
             campaignTrail_temp.question_number + 1
         ] = tunnel(13628);
