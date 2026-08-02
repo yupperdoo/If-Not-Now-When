@@ -18129,7 +18129,6 @@ div#final_results_description {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  margin-bottom: 0.75em;
 }
 #menu_container {
     background-color: #f2e6c6;
@@ -18151,7 +18150,7 @@ div#question_form {
 }
 button#ExportFileButton {
     position: absolute;
-    margin-top: -10px !important;
+    margin-top: 10px !important;
     margin-left: -64px !important;
 }
 #overall_election_results p b a {
