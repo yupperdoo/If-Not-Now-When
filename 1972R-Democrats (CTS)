@@ -22321,7 +22321,15 @@ else if (
     (campaignTrail_temp.player_answers.includes(2305) ||
      campaignTrail_temp.player_answers.includes(2306) ||
      campaignTrail_temp.player_answers.includes(2307) ||
-     campaignTrail_temp.player_answers.includes(2116))
+     campaignTrail_temp.player_answers.includes(2116) ||
+     campaignTrail_temp.player_answers.includes(2313) ||
+     campaignTrail_temp.player_answers.includes(2314) ||
+     campaignTrail_temp.player_answers.includes(2315) ||
+     campaignTrail_temp.player_answers.includes(2316) ||
+     campaignTrail_temp.player_answers.includes(2513) ||
+     campaignTrail_temp.player_answers.includes(2514) ||
+     campaignTrail_temp.player_answers.includes(2515) ||
+     campaignTrail_temp.player_answers.includes(2516))
 ) {
     campaignTrail_temp.questions_json[
         campaignTrail_temp.question_number + 1
