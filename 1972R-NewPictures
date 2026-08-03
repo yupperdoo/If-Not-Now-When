@@ -191,7 +191,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Ted_Kennedy.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Ted Kennedy</b><br>
             Ted Kennedy remains one of the most influential figures in the Democratic Party, even as he continues to insist he is not a candidate. Despite the shadow of Chappaquiddick, the Massachusetts senator has become a leading voice for organized labor, expanded healthcare, and the party's liberal wing, ensuring that speculation about a draft movement never truly disappears. His name carries enormous weight with younger voters, labor leaders, and liberals alike, and his mere presence has a way of reshaping the conversation. While many party leaders remain wary of the political risks surrounding him, just as many quietly believe no other Democrat possesses quite the same combination of charisma, stature, and political potential. For many Democrats, Kennedy represents the party's future - if he can ever be persuaded to seek it.
@@ -203,7 +203,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Edmund_Muskie.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Edmund Muskie</b><br>
             Ed Muskie enters this cycle as the closest thing Democrats have to a consensus candidate. The Maine senator built his national reputation as Hubert Humphrey's running mate in 1968 and has spent the years since positioning himself as a thoughtful, pragmatic liberal capable of uniting a divided party. Muskie supports the Great Society, environmental protection, organized labor, and a gradual end to the Vietnam War, but he has generally avoided the confrontational style embraced by many younger activists. Governors, party chairs, union leaders, and major donors increasingly see him as the safest choice to challenge Richard Nixon. That broad acceptability is also his greatest challenge. He inspires confidence more often than excitement, leaving many reformers wondering whether steadiness alone is enough in a year when so many Democrats are demanding something bolder.
@@ -215,7 +215,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Hubert_Humphrey.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Hubert Humphrey</b><br>
             Hubert Humphrey remains one of the Democratic Party's most experienced and recognizable leaders. The former vice president built his career as a champion of civil rights, organized labor, and the Great Society, earning the loyalty of many unions, elected officials, and longtime party regulars. Just as many Democrats continue to see him as the party's safest and most dependable nominee if the convention deadlocks. At the same time, his close association with Lyndon Johnson and the Vietnam War has left many reformers and younger activists searching for a new generation of leadership, limiting his appeal among the party's insurgent wing.
@@ -231,7 +231,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/George_McGovern.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>George McGovern</b><br>
             George McGovern has begun attracting attention within the party's reform movement, though his reputation remains far stronger among activists than among the broader Democratic electorate. Best known for chairing the McGovern-Fraser Commission, he has become closely associated with efforts to open the nominating process and reduce the influence of party bosses. He has also built a record as an outspoken critic of the Vietnam War and a consistent advocate for farmers and rural America, issues that resonate with many younger liberals and Plains Democrats alike. Even so, his limited national profile leaves many party leaders wondering whether he is ready for a presidential campaign.
@@ -243,7 +243,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Birch_Bayh.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Birch Bayh</b><br>
             Birch Bayh has quietly earned respect as one of the Senate's leading advocates for constitutional reform, civil rights, and education. Although he lacks the national profile of the party's better-known figures, his reputation as an energetic and forward-looking legislator has attracted growing attention among Democrats searching for a new generation of leadership. Bayh's supporters see him as an intelligent and pragmatic reformer who combines liberal instincts with a careful legislative style. While he has yet to establish himself as a major presidential contender, many believe he could emerge as a consensus choice if the convention reaches a stalemate.
@@ -255,7 +255,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Frank_Church.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Frank Church</b><br>
             Frank Church has developed a growing reputation as one of the Senate's more thoughtful and independent liberal voices, particularly on foreign policy and the Vietnam War. Representing Idaho, he offers Democrats a Western perspective that is uncommon among the party's national leadership, while maintaining credibility with both traditional liberals and many voters who have grown skeptical of America's role overseas. Although his national organization remains modest and his name recognition is still limited outside political circles, Church is increasingly viewed as an intelligent, principled figure whose profile could continue to rise as debate over foreign policy becomes more central to the party.
@@ -267,7 +267,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/vmxvpGP.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Fred Harris</b><br>
             Fred Harris has become an increasingly visible spokesman for the party's populist and reform-minded wing, arguing that Democrats must reconnect with working families, rural communities, and Americans who feel left behind by the political establishment. As chairman of the Democratic National Committee, he has also played a central role in guiding the party through a period of sweeping organizational change following 1968. Harris has earned a loyal following among younger activists and reformers, but his national profile remains limited, leaving many Democrats intrigued by his message while uncertain about his electoral prospects.
@@ -279,7 +279,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Terry_Sanford.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Terry Sanford</b><br>
             Terry Sanford has earned a reputation as one of the South's leading liberal governors, combining an emphasis on education, economic development, and racial moderation with an instinct for practical politics. His supporters believe he represents a modern Southern Democrat capable of expanding the party's appeal in a region that has become increasingly competitive without abandoning its commitment to reform. Although widely respected by many elected officials, Sanford has struggled to build a substantial national following, and his candidacy continues to be constrained by geography as much as ideology.
@@ -295,7 +295,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Walter_Mondale.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Walter Mondale</b><br>
             Walter Mondale has built a reputation as a thoughtful Minnesota liberal with strong ties to organized labor, civil rights advocates, and the Senate's younger generation. Though still relatively unknown outside political circles, he is widely respected by governors, labor leaders, and party regulars for his steady temperament and practical approach to governing. Rather than appealing to the party's insurgent wing, Mondale is generally seen as someone capable of bringing together liberals and the Democratic establishment without provoking unnecessary conflict. Many believe his greatest strength lies in building consensus rather than commanding the spotlight.
@@ -307,7 +307,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Scoop_Jackson.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Henry Jackson</b><br>
             Henry 'Scoop' Jackson has spent years building influence in the Senate, where he has become a leading voice on national defense, labor issues, and foreign policy. Despite his considerable stature in Washington, however, he remains surprisingly little known to much of the country outside political circles. Jackson combines a solidly liberal record on most domestic issues with an outspoken anti-communist approach to international affairs, earning him loyal support from many labor leaders and Cold War Democrats. His supporters view him as a dependable and experienced public servant, though his relatively low national profile has limited broader enthusiasm for a presidential campaign.
@@ -319,7 +319,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Wilbur_Mills.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Wilbur Mills</b><br>
             Wilbur Mills is one of the most influential men in Congress, wielding enormous authority as chairman of the House Ways and Means Committee and exercising tremendous influence over the nation's tax and spending policies. His command of economic issues is respected across both parties, making him one of Washington's most formidable legislative figures. At the same time, his long association with the conservative Southern wing of the Democratic Party, including earlier support for segregationist positions, has complicated his standing with many liberals. While few doubt his legislative abilities, many question whether a behind-the-scenes congressional strategist is well suited for a national campaign.
@@ -335,7 +335,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Harold_Hughes.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Harold Hughes</b><br>
             Harold Hughes brings one of the most distinctive political profiles in the Democratic field, combining an outspoken progressive record with a deeply personal religious faith and an unmistakably populist style. The former Iowa governor has built a devoted following among many Midwestern Democrats, particularly working-class voters drawn to his message of economic justice and moral responsibility. His well-known struggle with alcoholism and remarkable personal redemption have made him an unusually compelling speaker, though he has shown little enthusiasm for the endless travel and rubber-chicken circuit of presidential politics. While his national organization remains modest, some Democratic strategists quietly believe Hughes possesses the rare authenticity and personal charisma needed to mount a serious challenge to Richard Nixon.
@@ -346,8 +346,8 @@ window.candidatesText.innerHTML = `
 
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
-        <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/yPldpEr.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+        <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Gene_McCarthy.png"
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Eugene McCarthy</b><br>
             Eugene McCarthy remains one of the Democratic Party's most recognizable antiwar voices, having transformed the 1968 campaign by demonstrating the depth of opposition to the Vietnam War within the party. While he continues to command deep loyalty from many activists, students, and intellectuals, much of the reform energy he helped unleash has gradually shifted toward newer figures and organizations. McCarthy remains an influential presence whose judgment still carries weight among antiwar Democrats, but many party leaders increasingly see him as the movement's catalyst rather than its future standard-bearer.
@@ -359,7 +359,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/George_Wallace.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>George Wallace</b><br>
             George Wallace remains the dominant political force among many white Southern Democrats, commanding an intensely loyal following that few figures in either party can match. His outspoken opposition to the national Democratic Party's direction on civil rights, cultural issues, and federal authority continues to resonate with conservative voters throughout the South and beyond. At the same time, his polarizing reputation leaves him deeply unpopular across much of the rest of the party, making him a formidable factional leader but an extraordinarily difficult candidate around whom Democrats could realistically unite.
@@ -371,7 +371,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Shirley_Chisholm.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>Shirley Chisholm</b><br>
             Shirley Chisholm has quickly emerged as one of the Democratic Party's most compelling new voices, earning national attention through her outspoken advocacy for civil rights, women's equality, and economic opportunity. As the first Black woman elected to Congress, she has become an inspiration to many younger voters, urban liberals, and activists seeking broader representation within the party. While her organization remains limited and few party leaders view her as a likely nominee, her growing prominence reflects the changing coalition and expanding ambitions of the modern Democratic Party, making her influence increasingly difficult to ignore.
@@ -383,7 +383,7 @@ window.candidatesText.innerHTML = `
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
         <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/John_Lindsay.png"
-             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
+             style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0; filter: sepia(33%);">
         <div>
             <b>John Lindsay</b><br>
             John Lindsay occupies an unusual place in American politics. Though elected as a Republican, his liberal record as mayor of New York City has increasingly placed him at odds with his own party while earning admiration from many Democrats and independents. His outspoken positions on civil rights, urban affairs, and opposition to the Vietnam War have fueled persistent speculation about his political future. Yet his relationship with the Democratic establishment remains uncertain, leaving him as an intriguing but unconventional possibility whose appeal rests as much on his independence as on any traditional political base.
@@ -18017,22 +18017,26 @@ div.inner_window_sign_display {
   height: 175px;
 }
 img.person_image {
-  filter: sepia(10%);
+  filter: sepia(33%);
 }
 img#candidate_pic {
-  filter: sepia(10%);
+  filter: sepia(33%);
 }
 img#running_mate_pic {
-  filter: sepia(10%);
+  filter: sepia(33%);
+}
+div#running_mate_image.person_image {
+  filter: sepia(33%);
+}
+div.person_image {
+  filter: sepia(33%);
 }
 /*
 img#candidate_pic {
   height: 175px;
-  filter: sepia(10%);
 }
 img#running_mate_pic {
   height: 175px;
-  filter: sepia(10%);
 }
 #campaign_sign p {
   font-size: 3.0em;
@@ -18062,6 +18066,9 @@ div.container {
     border-width: 3px;
     border-style: solid;
     color: white;
+}
+.overlay_window img {
+    filter: sepia(33%) !important;
 }
 div#visit_window.overlay_window
     height: auto;
