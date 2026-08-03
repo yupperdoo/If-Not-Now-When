@@ -630,46 +630,58 @@ southStatus = "South: " + v.south;
 */
 
 // Party Unity
-if (partyUnity >= 10) unityStatus = "The party is holding together.";
-else if (partyUnity >= 5) unityStatus = "The party is uneasy but intact.";
+if (partyUnity >= 12) unityStatus = "The party is completely united.";
+else if (partyUnity >= 8) unityStatus = "The party is holding together.";
+else if (partyUnity >= 4) unityStatus = "The party is uneasy but intact.";
 else if (partyUnity >= 0) unityStatus = "The party is drifting into factions.";
-else if (partyUnity >= -5) unityStatus = "The party is breaking apart.";
-else unityStatus = "The party is in open turmoil.";
+else if (partyUnity >= -4) unityStatus = "The party is breaking apart.";
+else if (partyUnity >= -8) unityStatus = "The party is in open turmoil.";
+else unityStatus = "The party has collapsed entirely.";
 
 // Left
-if (left >= 10) leftStatus = "The insurgents are ascendant.";
-else if (left >= 5) leftStatus = "The insurgents are gaining ground.";
+if (left >= 12) leftStatus = "The insurgents are completely dominant.";
+else if (left >= 8) leftStatus = "The insurgents are ascendant.";
+else if (left >= 4) leftStatus = "The insurgents are gaining ground.";
 else if (left >= 0) leftStatus = "The insurgents are holding their own.";
-else if (left >= -5) leftStatus = "The insurgents are losing momentum.";
-else leftStatus = "The insurgents are fading out.";
+else if (left >= -4) leftStatus = "The insurgents are losing momentum.";
+else if (left >= -8) leftStatus = "The insurgents are fading out.";
+else leftStatus = "The insurgents have been crushed entirely.";
 
 // Labor
-if (labor >= 10) laborStatus = "Organized labor is firmly in control.";
-else if (labor >= 5) laborStatus = "Organized labor retains the upper hand.";
+if (labor >= 12) laborStatus = "Organized labor is dominating the party.";
+else if (labor >= 8) laborStatus = "Organized labor is firmly in control.";
+else if (labor >= 4) laborStatus = "Organized labor retains the upper hand.";
 else if (labor >= 0) laborStatus = "Organized labor is holding steady.";
-else if (labor >= -5) laborStatus = "Organized labor is losing leverage.";
-else laborStatus = "Organized labor is being sidelined.";
+else if (labor >= -4) laborStatus = "Organized labor is losing leverage.";
+else if (labor >= -8) laborStatus = "Organized labor is being pushed aside.";
+else laborStatus = "Organized labor has lost all influence.";
 
 // Establishment
-if (establishment >= 10) establishmentStatus = "The establishment is firmly in control.";
-else if (establishment >= 5) establishmentStatus = "The establishment retains the upper hand.";
+if (establishment >= 12) establishmentStatus = "The establishment is dominating the party.";
+else if (establishment >= 8) establishmentStatus = "The establishment is firmly in control.";
+else if (establishment >= 4) establishmentStatus = "The establishment retains the upper hand.";
 else if (establishment >= 0) establishmentStatus = "The establishment is holding steady.";
-else if (establishment >= -5) establishmentStatus = "The establishment is losing leverage.";
-else establishmentStatus = "The establishment is being sidelined.";
+else if (establishment >= -4) establishmentStatus = "The establishment is losing leverage.";
+else if (establishment >= -8) establishmentStatus = "The establishment is being pushed aside.";
+else establishmentStatus = "The establishment has lost all influence.";
 
 // Minorities
-if (minorities >= 10) minoritiesStatus = "Minority leaders are driving the conversation.";
-else if (minorities >= 5) minoritiesStatus = "Minority voices are gaining strength.";
-else if (minorities >= 0) minoritiesStatus = "Minority leaders are making inroads.";
-else if (minorities >= -5) minoritiesStatus = "Minority leaders are being overlooked.";
-else minoritiesStatus = "Minority leaders are being shut out.";
+if (minorities >= 12) minoritiesStatus = "Minority voices are leading the party.";
+else if (minorities >= 8) minoritiesStatus = "Minority voices are driving the conversation.";
+else if (minorities >= 4) minoritiesStatus = "Minority voices are gaining strength.";
+else if (minorities >= 0) minoritiesStatus = "Minority voices are making inroads.";
+else if (minorities >= -4) minoritiesStatus = "Minority voices are being overlooked.";
+else if (minorities >= -8) minoritiesStatus = "Minority voices are being marginalized.";
+else minoritiesStatus = "Minority voices have been shut out entirely.";
 
 // South
-if (south >= 10) southStatus = "Southern Democrats are driving the conversation.";
-else if (south >= 5) southStatus = "Southern Democrats retain the upper hand.";
+if (south >= 12) southStatus = "Southern Democrats are completely driving the conversation.";
+else if (south >= 8) southStatus = "Southern Democrats are driving the conversation.";
+else if (south >= 4) southStatus = "Southern Democrats retain the upper hand.";
 else if (south >= 0) southStatus = "Southern Democrats are holding steady.";
-else if (south >= -5) southStatus = "Southern Democrats are losing influence.";
-else southStatus = "Southern Democrats are drifting away.";
+else if (south >= -4) southStatus = "Southern Democrats are losing influence.";
+else if (south >= -8) southStatus = "Southern Democrats are drifting away.";
+else southStatus = "Southern Democrats have been shut out entirely.";
 
 return {
     leftStatus,
