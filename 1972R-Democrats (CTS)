@@ -18022,7 +18022,7 @@ img#running_mate_pic {
 div#running_mate_image.person_image {
   filter: sepia(33%);
 }
-div.person_image {
+div#.person_image {
   filter: sepia(33%);
 }
 #game_window g {
