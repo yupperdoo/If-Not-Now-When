@@ -346,7 +346,7 @@ window.candidatesText.innerHTML = `
 
 <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:12px;">
     <div style="display:flex; align-items:flex-start;">
-        <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/yPldpEr.png"
+        <img src="https://raw.githubusercontent.com/yupperdoo/If-Not-Now-When-Images/refs/heads/main/Gene_McCarthy.png"
              style="width:120px; height:150px; margin-right:10px; margin-top:25px; flex-shrink:0;">
         <div>
             <b>Eugene McCarthy</b><br>
