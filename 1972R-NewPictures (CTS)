@@ -18013,11 +18013,16 @@ div.inner_window_sign_display {
 }
 img#candidate_pic {
   height: 175px;
+  filter: sepia(33%);
 }
 img#running_mate_pic {
   height: 175px;
+  filter: sepia(33%);
 }
 div#running_mate_image.person_image {
+  filter: sepia(33%);
+}
+div.person_image {
   filter: sepia(33%);
 }
 #game_window g {
