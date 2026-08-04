@@ -51,7 +51,7 @@ window.visitTextDB = {
 
 1023: "is a Deep Southern state where Democrats continue to dominate state politics, though Republicans are making significant gains in presidential elections as the region undergoes political realignment.",
 
-1024: "is a Border South state where Democratic machines in St. Louis and KS City compete with increasingly Republican suburbs and conservative rural counties, making it one of the nation's classic political battlegrounds.",
+1024: "is a Border South state where the Democratic machine in St. Louis and Kansas City compete with increasingly Republican suburbs and small towns, making it one of the nation's classic political battlegrounds.",
 
 1025: "is a Mountain West state where Republicans usually hold the advantage, though Democrats remain competitive through organized labor, mining communities, and a well-established statewide organization.",
 
@@ -24991,8 +24991,12 @@ addHeadquarterButton();
 
     // must be a state name match
     const state = campaignTrail_temp.states_json.find(s =>
-      text.includes(s.fields.name)
+      text.includes(s.fields.name) &&
+      !(s.fields.name === "Kansas" && text.includes("Missouri")) &&
+      !(s.fields.name === "Virginia" && text.includes("West Virginia"))
     );
+
+if (!state) return;
 
     if (!state) return;
 
