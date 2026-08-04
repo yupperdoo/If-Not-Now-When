@@ -817,8 +817,23 @@ button#election_id_button {
   margin-top: 16%;
   margin-right: 82.5%;
 }
-div#candidate_image.person_image {
-  filter: sepia(33%) !important;
+img.person_image {
+  filter: sepia(33%);
+}
+img#candidate_pic {
+  filter: sepia(33%);
+}
+img#running_mate_pic {
+  filter: sepia(33%);
+}
+div#running_mate_image.person_image {
+  filter: sepia(33%);
+}
+div.person_image {
+  filter: sepia(33%);
+}
+div#election_image::before {
+  filter: sepia(33%);
 }
 #election_description_window {
   min-height: 300px;
@@ -893,7 +908,7 @@ div#candidate_image.person_image {
   left: 2.5%;
   width: 55%;
   height: 62.5%;
-  background-image: url("https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/nwi7ylA.gif");
+  background-image: url("https://github.com/yupperdoo/If-Not-Now-When-Images/releases/download/GIFs/TV_Gif.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
