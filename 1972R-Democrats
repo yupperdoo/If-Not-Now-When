@@ -113,7 +113,7 @@ window.campaignVars = {
     labor: 3,
     establishment: 4,
     minorities: -1,
-    south: -3,
+    south: 1,
     partyUnity: -2,
 };
 window.applyEffects = function(effects) {
@@ -19082,7 +19082,7 @@ applyEffects({
     labor: 0,
     left: 0,
     minorities: 0,
-    south: 1,
+    south: 2,
     partyUnity: 2
 });
 }
@@ -19115,7 +19115,7 @@ applyEffects({
     labor: 1,
     left: -2,
     minorities: 0,
-    south: 1,
+    south: -1,
     partyUnity: 1
 });
 }
