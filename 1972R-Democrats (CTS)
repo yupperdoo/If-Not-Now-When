@@ -20053,37 +20053,37 @@ applyEffects({
 
 
 /* =========================
-   QUESTION 1620 — Voting Rights Act
+   QUESTION 1620 — Military Spending
    ========================= */
 
 if(ans == 2677){
 applyEffects({
     establishment: 1,
-    labor: 1,
-    left: 2,
-    minorities: 4,
-    south: -4,
-    partyUnity: 2
+    labor: 2,
+    left: -2,
+    minorities: 0,
+    south: 4,
+    partyUnity: 1
 });
 }
 
 if(ans == 2678){
 applyEffects({
-    establishment: 1,
+    establishment: 2,
     labor: 1,
-    left: 1,
+    left: 2,
     minorities: 1,
-    south: -2,
-    partyUnity: 1
+    south: -1,
+    partyUnity: 2
 });
 }
 
 if(ans == 2679){
 applyEffects({
-    establishment: 1,
-    labor: 0,
-    left: -2,
-    minorities: -2,
+    establishment: 4,
+    labor: 1,
+    left: -4,
+    minorities: -1,
     south: 2,
     partyUnity: -2
 });
@@ -20091,12 +20091,12 @@ applyEffects({
 
 if(ans == 2680){
 applyEffects({
-    establishment: 0,
+    establishment: 1,
     labor: 0,
-    left: 0,
+    left: -1,
     minorities: 0,
-    south: 1,
-    partyUnity: -2
+    south: 2,
+    partyUnity: 4
 });
 }
 
