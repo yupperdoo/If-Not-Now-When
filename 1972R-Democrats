@@ -26274,134 +26274,128 @@ if (
     campaignTrail_temp.player_answers.includes(2047)
 ) {
 
-    // PART 1: South dominates by 5+
+    const v = window.campaignVars;
+
+    const map = {
+        "labor_establishment": 11025,
+        "labor_left": 11225,
+        "labor_minorities": 11425,
+        "labor_south": 11625,
+        "establishment_left": 11825,
+        "establishment_minorities": 12025,
+        "establishment_south": 12225,
+        "left_minorities": 12425,
+        "left_south": 12625,
+        "minorities_south": 12825,
+        "labor_establishment_left": 13025,
+        "labor_establishment_minorities": 13225,
+        "labor_establishment_south": 13425,
+        "labor_left_minorities": 13625,
+        "labor_left_south": 13825,
+        "labor_minorities_south": 14025,
+        "establishment_left_minorities_labor": 15025,
+        "establishment_left_south_labor": 15225,
+        "establishment_minorities_south_labor": 15425,
+        "labor_left_minorities_south": 15625,
+        "labor_establishment_minorities_south": 15825,
+        "labor_establishment_left_minorities_south": 16025
+    };
+
     if (
-        (window.campaignVars.south -
+        v.south >
         Math.max(
-            window.campaignVars.establishment,
-            window.campaignVars.labor,
-            window.campaignVars.minorities,
-            window.campaignVars.left
-        )) >= 5
+            v.establishment,
+            v.labor,
+            v.minorities,
+            v.left
+        )
     ) {
 
-        // South + Establishment
-        if (
-            window.campaignVars.establishment >=
-            Math.max(
-                window.campaignVars.labor,
-                window.campaignVars.minorities,
-                window.campaignVars.left
-            )
-        ) {
+        const factions = [
+            { name: "labor", value: v.labor },
+            { name: "establishment", value: v.establishment },
+            { name: "minorities", value: v.minorities },
+            { name: "left", value: v.left }
+        ];
+
+        factions.sort((a, b) => b.value - a.value);
+
+        // First faction among the four non-South factions
+        const first = factions[0];
+
+        // First is 5+ ahead of second:
+        // South + first
+        if (first.value - factions[1].value >= 5) {
+
+            const key = [first.name, "south"]
+                .sort()
+                .join("_");
+
             campaignTrail_temp.questions_json[
                 campaignTrail_temp.question_number + 1
-            ] = tunnel(11625);
+            ] = tunnel(map[key]);
+
             return;
         }
 
-        // South + Labor
-        if (
-            window.campaignVars.labor >=
-            Math.max(
-                window.campaignVars.establishment,
-                window.campaignVars.minorities,
-                window.campaignVars.left
-            )
-        ) {
+        // First and second are within 5.
+        // If second is 5+ ahead of third:
+        // South + first + second
+        if (factions[1].value - factions[2].value >= 5) {
+
+            const key = [
+                first.name,
+                factions[1].name,
+                "south"
+            ]
+                .sort()
+                .join("_");
+
             campaignTrail_temp.questions_json[
                 campaignTrail_temp.question_number + 1
-            ] = tunnel(12225);
+            ] = tunnel(map[key]);
+
             return;
         }
 
-        // South + Minorities
-        if (
-            window.campaignVars.minorities >=
-            Math.max(
-                window.campaignVars.establishment,
-                window.campaignVars.labor,
-                window.campaignVars.left
-            )
-        ) {
+        // First, second, and third are within 5.
+        // South + first + second + third
+        if (factions[2].value - factions[3].value >= 5) {
+
+            const key = [
+                first.name,
+                factions[1].name,
+                factions[2].name,
+                "south"
+            ]
+                .sort()
+                .join("_");
+
             campaignTrail_temp.questions_json[
                 campaignTrail_temp.question_number + 1
-            ] = tunnel(12825);
+            ] = tunnel(map[key]);
+
             return;
         }
 
-        // South + Left
+        // All four non-South factions are within 5.
+        // South + all four = five-way compromise
+        const key = [
+            first.name,
+            factions[1].name,
+            factions[2].name,
+            factions[3].name,
+            "south"
+        ]
+            .sort()
+            .join("_");
+
         campaignTrail_temp.questions_json[
             campaignTrail_temp.question_number + 1
-        ] = tunnel(12625);
+        ] = tunnel(map[key]);
+
         return;
     }
-
-    // PART 2: Establishment dominates
-    if (
-        (window.campaignVars.establishment -
-        Math.max(
-            window.campaignVars.labor,
-            window.campaignVars.minorities,
-            window.campaignVars.left
-        )) >= 5
-    ) {
-        campaignTrail_temp.questions_json[
-            campaignTrail_temp.question_number + 1
-        ] = tunnel(1425);
-        return;
-    }
-
-    // Labor dominates
-    if (
-        (window.campaignVars.labor -
-        Math.max(
-            window.campaignVars.establishment,
-            window.campaignVars.minorities,
-            window.campaignVars.left
-        )) >= 5
-    ) {
-        campaignTrail_temp.questions_json[
-            campaignTrail_temp.question_number + 1
-        ] = tunnel(1225);
-        return;
-    }
-
-    // Minorities dominates
-    if (
-        (window.campaignVars.minorities -
-        Math.max(
-            window.campaignVars.establishment,
-            window.campaignVars.labor,
-            window.campaignVars.left
-        )) >= 5
-    ) {
-        campaignTrail_temp.questions_json[
-            campaignTrail_temp.question_number + 1
-        ] = tunnel(1825);
-        return;
-    }
-
-    // Left dominates
-    if (
-        (window.campaignVars.left -
-        Math.max(
-            window.campaignVars.establishment,
-            window.campaignVars.labor,
-            window.campaignVars.minorities
-        )) >= 5
-    ) {
-        campaignTrail_temp.questions_json[
-            campaignTrail_temp.question_number + 1
-        ] = tunnel(1025);
-        return;
-    }
-
-    // PART 3: No faction dominates (excluding South)
-    campaignTrail_temp.questions_json[
-        campaignTrail_temp.question_number + 1
-    ] = tunnel(15025);
-    return;
 }
 
 // Chisholm
