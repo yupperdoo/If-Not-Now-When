@@ -25017,20 +25017,7 @@ document.addEventListener("click", function (e) {
 
   console.log("OK clicked");
 
-  // Try to find ANY visible overlay-like container
-  const overlays = document.querySelectorAll(".overlay_window, #feedback_window, [class*='overlay']");
 
-  overlays.forEach((el) => {
-    const style = window.getComputedStyle(el);
-
-    // Only act on visible ones
-    if (style.display !== "none" && style.visibility !== "hidden" && style.opacity !== "0") {
-      console.log("Removing overlay:", el);
-
-      // HARD REMOVE (bypasses state bugs)
-      el.remove();
-    }
-  });
 });
 
 function fixMap() {
