@@ -22148,21 +22148,21 @@ function calculateCandidateElectoralVotes(finalResults) {
 }
 
 const endingsMap = {
-  mcgovern: mcgovernWinsEnding,
-  humphrey: humphreyWinsEnding,
-  muskie: muskieWinsEnding,
-  wallace: wallaceWinsEnding,
-  chisholm: chisholmWinsEnding,
-  bayh: bayhWinsEnding,
-  mondale: mondaleWinsEnding,
-  church: churchWinsEnding,
-  hughes: hughesWinsEnding,
-  harris: harrisWinsEnding,
-  sanford: sanfordWinsEnding,
-  jackson: jacksonWinsEnding,
-  mills: millsWinsEnding,
-  lindsay: lindsayWinsEnding,
-  kennedy: kennedyWinsEnding,
+  mcgovernWins: mcgovernWinsEnding,
+  humphreyWins: humphreyWinsEnding,
+  muskieWins: muskieWinsEnding,
+  wallaceWins: wallaceWinsEnding,
+  chisholmWins: chisholmWinsEnding,
+  bayhWins: bayhWinsEnding,
+  mondaleWins: mondaleWinsEnding,
+  churchWins: churchWinsEnding,
+  hughesWins: hughesWinsEnding,
+  harrisWins: harrisWinsEnding,
+  sanfordWins: sanfordWinsEnding,
+  jacksonWins: jacksonWinsEnding,
+  millsWins: millsWinsEnding,
+  lindsayWins: lindsayWinsEnding,
+  kennedyWins: kennedyWinsEnding,
   mcgovernTie: mcgovernTiebreakerEnding,
   humphreyTie: humphreyTiebreakerEnding,
   muskieTie: muskieTiebreakerEnding,
@@ -22178,13 +22178,26 @@ const endingsMap = {
   millsTie: millsTiebreakerEnding,
   lindsayTie: lindsayTiebreakerEnding,
   kennedyTie: kennedyTiebreakerEnding,
-  nixon: nixonWinsEnding
+  mcgovernLoses: mcgovernLosesEnding,
+  humphreyLoses: humphreyLosesEnding,
+  muskieLoses: muskieLosesEnding,
+  wallaceLoses: wallaceLosesEnding,
+  chisholmLoses: chisholmLosesEnding,
+  bayhLoses: bayhLosesEnding,
+  mondaleLoses: mondaleLosesEnding,
+  churchLoses: churchLosesEnding,
+  hughesLoses: hughesLosesEnding,
+  harrisLoses: harrisLosesEnding,
+  sanfordLoses: sanfordLosesEnding,
+  jacksonLoses: jacksonLosesEnding,
+  millsLoses: millsLosesEnding,
+  lindsayLoses: lindsayLosesEnding,
+  kennedyLoses: kennedyLosesEnding
 };
 
 function getEnding(key) {
     return endingsMap[key] ?? "";
 }
-
 endingPicker = (out, totv, aa, quickstats) => {
 campaignTrail_temp.multiple_endings=true
 //out = "win", "loss", or "tie" for your candidate
