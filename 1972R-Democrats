@@ -6029,10 +6029,11 @@ const millsLosesEnding = `
 
 <h1>Back From Alcoholism, Wilbur Mills Begins a New Life At 68</h1>
 
-<p><b>January 3, 1978</b><br>
-By Myra MacPherson</p>
+<p><b>January 3, 1978</b><br></p>
 
-"I don't have any idea where she is. I don't have any feelings against her. I don't know if, or how much, I hurt her. I just don't have any idea." Wilbur Mills walks to the kitchen to empty an ashtray and says quietly, "All I can say is, I'm not going to blame her."</p>
+<p>By Myra MacPherson</p>
+
+<p>"I don't have any idea where she is. I don't have any feelings against her. I don't know if, or how much, I hurt her. I just don't have any idea." Wilbur Mills walks to the kitchen to empty an ashtray and says quietly, "All I can say is, I'm not going to blame her."</p>
 
 <p>Mills looks away in embarrassment for the first time, after all the direct and open answers, as he speaks of Fanne Foxe, the stripteaser police found him with drunk at the Tidal Basin three years ago - the night that toppled his career as one of Washington's most powerful men.</p>
 
@@ -9026,7 +9027,7 @@ const muskieWinsEnding = `
 
 <p><i>Without a strong warming signal, research funding shifted elsewhere. Climate modeling has remained a niche academic field. The idea that industrial emissions might influence global temperature never developed into a major scientific or political issue.</i></p>
 
-<p><i>Professor Fung pauses.</i></p>
+<p><b>Professor Fung pauses.</b></p>
 
 <p><i>History is full of problems discovered too late.</i></p>
 
