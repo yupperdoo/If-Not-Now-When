@@ -25434,7 +25434,7 @@ applyEffects({
     labor: 2,
     left: -4,
     minorities: -4,
-    south: 2,
+    south: 4,
     partyUnity: -4
 });
 }
@@ -25482,7 +25482,7 @@ applyEffects({
     labor: 2,
     left: -2,
     minorities: -4,
-    south: 2,
+    south: 4,
     partyUnity: 0
 });
 }
@@ -25589,7 +25589,7 @@ applyEffects({
     labor: 0,
     left: 1,
     minorities: 1,
-    south: 1,
+    south: 2,
     partyUnity: 2
 });
 }
@@ -26728,7 +26728,7 @@ applyEffects({
     labor: 1,
     left: -4,
     minorities: -2,
-    south: 2,
+    south: 4,
     partyUnity: 1
 });
 }
@@ -26853,7 +26853,7 @@ applyEffects({
     labor: 2,
     left: -2,
     minorities: 0,
-    south: 4,
+    south: 2,
     partyUnity: 1
 });
 }
@@ -26875,7 +26875,7 @@ applyEffects({
     labor: 1,
     left: -4,
     minorities: -1,
-    south: 2,
+    south: 4,
     partyUnity: -2
 });
 }
